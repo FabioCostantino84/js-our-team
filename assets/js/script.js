@@ -23,6 +23,8 @@ Organizzare i singoli membri in card/schede
 
 */
 
+
+// MILESTONE 0: Creare l’array di oggetti con le informazioni fornite.
 const team = [
     {
         nome: 'Wayne Barnett',
@@ -58,8 +60,11 @@ const team = [
 
 console.log(team);
 
-for (const key in team) {
-    console.log(key);
-    
+// MILESTONE 1: Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+for (let i = 0; i < team.length; i++) {
+    const teamMember = team[i];
+    console.log(teamMember.nome);
+    console.log(teamMember.ruolo);
+    console.log(teamMember.foto);
 }
 
