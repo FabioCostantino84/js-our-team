@@ -66,5 +66,8 @@ for (let i = 0; i < team.length; i++) {
     console.log(teamMember.nome);
     console.log(teamMember.ruolo);
     console.log(teamMember.foto);
+    document.querySelector('p').innerHTML = teamMember.nome + teamMember.ruolo + teamMember.foto;
 }
+
+// MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe
 
